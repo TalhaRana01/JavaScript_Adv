@@ -55,11 +55,14 @@ const arrowFunction = (num1,num2)=>{
 
 // console.log(arrowFunction(5,5))
 
-
+//  () => num3 + num4   no need curly brackets // no need curly if you are using parentheses
 // const arrowFunction2 = (num3,num4) =>  num3 + num4;
 
 // console.log(arrowFunction2(10,15))
 
+
+// we can't add objects in arrow fuction without parentheses
+// Always Add Parentheses while writing ojects
 const arrowFunction3 = (num4, num5) => ({ name: "Talha Rana"});
 
 console.log(arrowFunction3(20,30));
