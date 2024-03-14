@@ -3,27 +3,64 @@ const user = {
     username: "Talha Rana",
     age: 30,
     welcomeMessage: function(){
-        console.log(`${this.username}, "Welcome to website`)
+        // console.log(`${this.username}, "Welcome to website`)
+        // console.log(this);
 
     }
 }
 
-user.welcomeMessage();
-user.username = "Nabeel Rana";
-user.welcomeMessage();
+// user.welcomeMessage();
+// user.username = "Nabeel Rana";
+// user.welcomeMessage();
 
-console.log(this);
+// console.log(this);  ===> output null <===
+
+
 // function fnc (){
 //     let username = "Talha Rana";
 //     console.log(this.username);
 
 // }
 
-// fnc();
+// fnc();  ===> Output undefined <===
+
 
 // const fnc = ()=>{
 //     let username = "Talha Rana";
 //     console.log(this.username);
 // }
 
+// fnc();   ===> Output undefined <===
+
+// function fnc(){
+//     console.log(this)
+// }
 // fnc();
+
+// const fnc = ()=>{
+//     console.log(this);
+// }
+// fnc();
+
+
+// ==============================================================
+
+// ARROW FUCTION 
+
+
+// Basic Arrow Functions --------------------
+const arrowFunction = (num1,num2)=>{
+    return num1 + num2
+}
+
+// console.log(arrowFunction(5,5))
+
+
+// const arrowFunction2 = (num3,num4) =>  num3 + num4;
+
+// console.log(arrowFunction2(10,15))
+
+const arrowFunction3 = (num4, num5) => ({ name: "Talha Rana"});
+
+console.log(arrowFunction3(20,30));
+
