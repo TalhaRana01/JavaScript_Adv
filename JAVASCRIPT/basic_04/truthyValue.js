@@ -51,3 +51,29 @@
 // }else{
 //     console.log("Did not get the email:");
 // }
+
+
+//  Nullish  Coalescing Operator (??) : null undefined
+let val1;
+// val1 = 5 ?? 10
+
+// val1 = null ?? 10;
+// val1 = undefined ?? 15;
+// val1 = null ?? 15 ?? 10;
+
+
+// console.log(val1)
+
+// ====================================
+
+// Terniary Operator 
+
+// Condition ? true Statement : false Statement
+
+// let age = 40
+
+// age>= 35? console.log("True") : console.log("False");
+
+// let userLoggedIn = false;
+
+// userLoggedIn == true? console.log("You Can Access the Website") : console.log("You can't access the website");
